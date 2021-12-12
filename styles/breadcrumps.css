@@ -1,0 +1,22 @@
+main .breadcrumps {
+  margin-top: 60px;
+
+  color: aqua;
+}
+
+main .breadcrumps a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+
+  text-decoration: none;
+}
+
+main .breadcrumps a:not(:last-child)::after {
+  content: "/";
+  margin-left: 5px;
+  margin-right: 5px;
+}
